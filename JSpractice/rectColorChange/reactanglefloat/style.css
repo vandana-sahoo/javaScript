@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#rect{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+marquee{
+  color: rgb(20, 138, 98);
+}
+
+/* body{
+  background: url(https://i.pinimg.com/236x/01/9b/de/019bdec23bce7cbd2bb34c8a806183a6.jpg);
+} */
